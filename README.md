@@ -92,7 +92,7 @@ ollama pull deepseek-r1:8b
 # Modelo más potente
 ollama pull deepseek-r1:671b
 
-# Otros modelos disponibles
+# Modelo para código
 ollama pull qwen2.5-coder:7b
 ```
 
