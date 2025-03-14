@@ -83,18 +83,17 @@ ollama serve
 2. Descarga un modelo (elige uno o varios):
 ```bash
 # Modelo pequeño y rápido
-ollama pull tinyllama
+ollama pull deepseek-r1:1.5b
 
 # Modelo balanceado (recomendado para empezar)
-ollama pull mistral
+ollama pull deepseek-r1:7b
+ollama pull deepseek-r1:8b
 
 # Modelo más potente
-ollama pull deepseek-coder
+ollama pull deepseek-r1:671b
 
 # Otros modelos disponibles
-ollama pull llama2
-ollama pull codellama
-ollama pull neural-chat
+ollama pull qwen2.5-coder:7b
 ```
 
 ## ▶️ Ejecutar la Aplicación
