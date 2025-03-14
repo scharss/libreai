@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error - StudioLab</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+        }
+        
+        .error-container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+        }
+        
+        .error-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            color: #dc3545;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        
+        .error-message {
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+        
+        .back-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        
+        .troubleshooting {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .troubleshooting h2 {
+            color: #333;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .troubleshooting ul {
+            text-align: left;
+            padding-left: 1.5rem;
+        }
+        
+        .troubleshooting li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-icon">⚠️</div>
+        <h1>¡Ups! Algo salió mal</h1>
+        <div class="error-message">
+            {{ error }}
+        </div>
+        <a href="/" class="back-button">Volver al inicio</a>
+        
+        <div class="troubleshooting">
+            <h2>Sugerencias de solución:</h2>
+            <ul>
+                <li>Verifica que Ollama esté instalado y ejecutándose en tu sistema.</li>
+                <li>Asegúrate de tener una conexión estable a internet.</li>
+                <li>Comprueba que todos los modelos necesarios estén descargados.</li>
+                <li>Reinicia la aplicación si el problema persiste.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html> 
