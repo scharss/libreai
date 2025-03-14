@@ -49,7 +49,7 @@ sudo apt install tesseract-ocr-spa  # Para español
 
 1. Clona el repositorio:
 ```bash
-git clone [URL_DEL_REPOSITORIO]
+git clone [[URL_DEL_REPOSITORIO](https://github.com/scharss/libreai.git)]
 cd [NOMBRE_DEL_DIRECTORIO]
 ```
 
