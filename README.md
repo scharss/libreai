@@ -180,10 +180,6 @@ http://localhost:5000
 
 ## 💻 Requisitos de Sistema
 
-- **CPU**: 4 núcleos o más
-- **RAM**: 8GB mínimo (16GB recomendado)
-- **Espacio en Disco**: 10GB mínimo
-- **GPU**: Opcional, mejora el rendimiento
 - **Sistema Operativo**: Windows 10/11 con WSL2, macOS 12+, o Linux
 
 ## 🔒 Privacidad
